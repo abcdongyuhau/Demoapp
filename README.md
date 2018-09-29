@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # sell
 
 > sell app
@@ -19,3 +20,7 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# sell-app
+vue-cli+vuex+vue-router+axios+swiper+DrawerLayout+mescroll
+>>>>>>> 968710e0c48a986cbdd8f72849ce0e4b50f85d94
