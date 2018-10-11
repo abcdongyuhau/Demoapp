@@ -2,11 +2,12 @@
     	<vue-drawer-layout ref="drawer" :content-drawable="false" id="app">
 		          <div class="drawer-content" slot="drawer" style="background: white;height: 100%;" >
       				 <div class="text">
-      				 	<img src="../dist/static/img/info_publish1.473ee81.png" style="width: 100%;">
+      				 	<img src="./assets/info_publish1.png" style="width: 100%;">
       				 	<ul class="clicklist" v-for="(item,$index) in list" @click="selectStyle (item, $index) " :class="{'active':item.active,'unactive':!item.active}">
       				 		<li>{{item.title}}</li>
       				 	</ul>
       				 	{{$t("message.title")}}
+               {{$t('title')}}
       				 </div>
 		          </div>
 		          <div slot="content" style="height: 100%;">

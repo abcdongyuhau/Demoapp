@@ -1,4 +1,5 @@
 module.exports = {
+  title: 'Sport Brandsdongyuhua',
     message: {
         title: 'Sport Brands'
     },
