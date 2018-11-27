@@ -13,7 +13,6 @@
 		          <div slot="content" style="height: 100%;">
 		          	<router-view/>
 				    </div>
-		          </div>
 		</vue-drawer-layout>
 </template>
 
